@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<title>About Us</title>
+	<style>
+    body {
+  background-image: url('background_image2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+
+{margin:0;font-family:Arial, helvetica, sans-serif;}
+
+.topnav {
+  overflow: hidden;
+  background-color: darksalmon;
+}
+
+.topnav a {
+  float: left;
+  color: darkmagenta;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: antiquewhite;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: darkslateblue;
+  color: white;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 100%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/6 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+	<div class="jumbotron text-center" style="margin-bottom:0; background-color: bisque;">
+      <h1 style="text-align: center; font-size: 55px; color: palevioletred;">My Recommendations</h1>
+      <p style="text-align: center; font-size: 30px; color: darkseagreen;">Top Movies/Shows on every genre !</p> 
+    </div>
+
+    <div class="topnav">
+       <a href="My Recommendations.html">Home</a>
+       <a href="movies.html">Movies</a>
+       <a href="Shows.html">Shows</a>
+       <a href="Animes.html">Animes</a>
+       <a href="Documentaries.html">Documentaries</a>
+       <a class="active" href="About Us.html">About us</a>
+    </div>
+    <br>
+
+    <div style="margin-top: 20px; color: aquamarine; margin-left: 150px; font-size: 50px; font-style: oblique;">About Us
+    	<br>
+    	<p style="font-size: 20px; font-style: oblique; color: honeydew;">Just a guy tirelessly trying to make your lives better by suggesting great films, shows and Anime<br> Enjoy!</p>
+    </div>
+    <br><br>
+
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+        <div class="numbertext">1 / 6</div>
+            <img src="Images/Deadpool.jpg" style="width:100%">
+        <div class="text">Schindler's List</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">2 / 6</div>
+            <img src="Images/Breaking_Bad.jpg" style="width:100%">
+        <div class="text">Breaking Bad</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">3 / 6</div>
+            <img src="Images/Attack_on_Titan.jpg" style="width:100%">
+        <div class="text">Shutter Island</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">4 / 6</div>
+            <img src="Images/friends.jpg" style="width:100%">
+        <div class="text">Interstellar</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">5 / 6</div>
+            <img src="Images/THE_SOCIAL_DILEMMA.jpg" style="width:100%">
+        <div class="text">Interstellar</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">6 / 6</div>
+            <img src="Images/the_babadook.jpg" style="width:100%">
+        <div class="text">Interstellar</div>
+    </div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+ 
+</div>
+<br><br><br><br>
+
+<div style="text-align:center; color: aliceblue; font-size: 50px;">Contact Us
+	<h3>Feel free to get in touch with us.</h3>
+</div>
+
+<div class="container">
+    <label for="exampleFormControlInput1" class="form-label">Name</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter Name">
+    <label for="exampleFormControlInput1" class="form-label">Contact</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter Contact">
+    <label for="exampleFormControlInput1" class="form-label">Email </label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter Email">
+</div>
+    <div class="container">
+        <label for="exampleFormControlTextarea1" class="form-label">Write Comments</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1"  placeholder="Your thoughts on my website " rows="3"></textarea>
+    </div>
+    <div class="btn btn-success" style="margin-left: 200px;">Submit</div>
+    <br><br><br>
+
+<footer>
+    <p style="font-size: 20px;">By - Shreyash Borkar<br>
+    <a href="shreyashborkar090203@gmail.com">shreyashborkar090304@gmail.com</a></p>
+</footer>
+
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+</body>
+</html>
